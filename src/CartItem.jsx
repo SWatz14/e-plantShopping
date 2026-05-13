@@ -52,7 +52,7 @@ const CartItem = ({ onContinueShopping }) => {
     
     
   };
-
+  
   return (
     <div className="cart-container">
       <h2 style={{ color: 'black' }}>Total Cart Amount: ${calculateTotalAmount().toFixed(2)}</h2>
